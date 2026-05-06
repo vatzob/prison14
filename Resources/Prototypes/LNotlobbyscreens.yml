@@ -1,0 +1,23 @@
+- type: lobbyBackground
+  id: 2fort
+  background: /Textures/LobbyScreens/2fort.webp
+  title: ctf_2fort
+  artist: Valve
+
+- type: lobbyBackground
+  id: Summer
+  background: /Textures/LobbyScreens/Summer.webp
+  title: Summer
+  artist: Valve
+
+- type: lobbyBackground
+  id: Upward
+  background: /Textures/LobbyScreens/Upward.webp
+  title: pl_upward
+  artist: Valve
+
+- type: lobbyBackground
+  id: Winter
+  background: /Textures/LobbyScreens/Winter.webp
+  title: Winter
+  artist: Valve
