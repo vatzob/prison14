@@ -20,10 +20,10 @@
   - sneezes!
   - sneezed!
   # Corvax-Localization-Start
-  - чихнул
-  - чихнул!
-  - чихает
-  - чихает!
+  - харкает и сплёвывает!
+  - харкнул и сплюнул!
+  - харкает и сплёвывает!
+  - харкает и сплёвывает!
   # Corvax-Localization-End
 
 - type: emote
@@ -50,9 +50,15 @@
     - coughs!
     - coughed!
     # Corvax-Localization-Start
-    - кашель
-    - кашляет
-    - кашлянул
+    - сплевывает
+    - сплёвывает
+    - сплюнул
+    - плюёт
+    - плюет
+    - харкает и сплёвывает
+    - харкнул и сплюнул
+    - плюёт в лицо
+    - плюет в лицо
     # Corvax-Localization-End
 
 - type: emote

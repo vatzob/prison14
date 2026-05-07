@@ -1,12 +1,12 @@
-department-Cargo = Отдел снабжения
-department-Civilian = Сервисный отдел
-department-Command = Командование
-department-CentralCommand = Центральное командование
-department-Engineering = Инженерный отдел
-department-Medical = Медицинский отдел
-department-Security = Служба безопасности
-department-Science = Научный отдел
-department-Silicon = Синтетики
-department-Specific = На определённых станциях
+department-Cargo = Почта России
+department-Civilian = Арестанты
+department-Command = Тюремная администрация
+department-CentralCommand = ЦК КПСС
+department-Engineering = Технари
+department-Medical = Больница
+department-Security = Тюремная охрана
+department-Science = Тут совсем скоро что-то да будет
+department-Silicon = Тут тоже
+department-Specific = Средства Массовой Информации
 
 department-Unknown = Неизвестный
