@@ -22,34 +22,24 @@
 - type: loadout
   id: CargoTechnicianHead
   equipment:
-    head: ClothingHeadHatCargosoft
+    head: ClothingHeadHatCommandSoft
 
 # Jumpsuit
 - type: loadout
   id: CargoTechnicianJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitCommandGeneric
 
 - type: loadout
   id: CargoTechnicianJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtCargo
+    jumpsuit: ClothingUniformJumpsuitCommandGeneric
 
 # Back
 - type: loadout
   id: CargoTechnicianBackpack
   equipment:
-    back: ClothingBackpackCargo
-
-- type: loadout
-  id: CargoTechnicianSatchel
-  equipment:
-    back: ClothingBackpackSatchelCargo
-
-- type: loadout
-  id: CargoTechnicianDuffel
-  equipment:
-    back: ClothingBackpackDuffelCargo
+    back: ClothingBackpackSatchelLeather
 
 # OuterClothing
 - type: loadout
@@ -61,18 +51,10 @@
 - type: loadout
   id: CargoWinterBoots
   equipment:
-    shoes: ClothingShoesBootsWinterCargo
+    shoes: ClothingShoesBootsLaceup
 
 # ID
 - type: loadout
   id: CargoTechnicianPDA
   equipment:
     id: CargoPDA
-
-- type: loadout
-  id: SeniorCourierPDA
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorCargo
-  equipment:
-    id: SeniorCourierPDA

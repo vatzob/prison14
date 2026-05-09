@@ -25,19 +25,19 @@
   - !type:GroupLoadoutEffect
     proto: GreyTider
   equipment:
-    mask: ClothingMaskGas
+    mask: ClothingMaskMuzzle
 
 # Jumpsuits
 # Grey
 - type: loadout
   id: GreyJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorGrey
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 - type: loadout
   id: GreyJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtColorGrey
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Rainbow
 - type: loadout
@@ -46,7 +46,7 @@
   - !type:GroupLoadoutEffect
     proto: GreyTider
   equipment:
-    jumpsuit: ClothingUniformColorRainbow
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Rainbow Jumpskirt
 - type: loadout
@@ -55,7 +55,7 @@
   - !type:GroupLoadoutEffect
     proto: GreyTider
   equipment:
-    jumpsuit: ClothingUniformJumpskirtColorRainbow
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Ancient
 - type: loadout
@@ -64,21 +64,21 @@
   - !type:GroupLoadoutEffect
     proto: GreyTider
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAncient
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Neck
 - type: loadout
-  id: Mantle
+  id: Bling
   equipment:
-    neck: ClothingNeckMantle
+    neck: ClothingNeckBling
   effects:
   - !type:GroupLoadoutEffect
     proto: MasterGrey
 
 - type: startingGear
-  id: Mantle
+  id: Bling
   equipment:
-    neck: ClothingNeckMantle
+    neck: ClothingNeckBling
 
 # Back
 - type: loadout
@@ -103,13 +103,18 @@
   - !type:GroupLoadoutEffect
     proto: GreyTider
   equipment:
-    gloves: ClothingHandsGlovesFingerlessInsulated
+    gloves: ClothingHandsGlovesFingerless
 
 # Outerclothing
 - type: loadout
   id: PassengerWintercoat
   equipment:
-    outerClothing: ClothingOuterWinterCoat
+    outerClothing: ClothingOuterCoatJensen
+    
+- type: loadout
+  id: Gentle
+  equipment:
+    outerClothing: ClothingOuterCoatGentle
 
 # Shoes
 - type: loadout
@@ -120,4 +125,4 @@
 - type: loadout
   id: WinterBoots
   equipment:
-    shoes: ClothingShoesBootsWinter
+    shoes: ClothingShoesColorOrange

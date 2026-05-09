@@ -79,7 +79,7 @@
   components:
   - type: Sprite
     layers:
-    - state: silver
+    - state: gold
     - state: stripe_top
       color: &color-service-top "#639137"
     - state: stripe_bottom
@@ -88,7 +88,7 @@
       offset: *icon-offset
       state: HeadOfPersonnel
   - type: Item
-    heldPrefix: silver
+    heldPrefix: gold
   - type: PresetIdCard
     job: HeadOfPersonnel
 
@@ -159,7 +159,7 @@
   components:
   - type: Sprite
     layers:
-    - state: silver
+    - state: gold
     - state: stripe_top
       color: &color-security-top "#cb0000"
     - state: stripe_bottom
@@ -168,7 +168,7 @@
       offset: *icon-offset
       state: HeadOfSecurity
   - type: Item
-    heldPrefix: silver
+    heldPrefix: gold
   - type: PresetIdCard
     job: HeadOfSecurity
 
@@ -219,7 +219,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-engineering-top
     - state: stripe_bottom
@@ -237,7 +237,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-engineering-top
     - state: stripe_bottom
@@ -291,7 +291,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-medical-top
     - state: stripe_bottom
@@ -453,7 +453,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-security-top
     - state: stripe_bottom
@@ -471,7 +471,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-security-top
     - state: stripe_bottom
@@ -758,7 +758,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-service-top
     - state: stripe_bottom
@@ -810,7 +810,7 @@
   components:
   - type: Sprite
     layers:
-    - state: default
+    - state: silver
     - state: stripe_top
       color: *color-supply-top
     - state: stripe_bottom

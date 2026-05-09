@@ -3,62 +3,12 @@
   id: Trinkets
   name: loadout-group-trinkets
   minLimit: 0
-  maxLimit: 3
+  maxLimit: 2
   loadouts:
-  - SpaceLaw # Corvax-HyperLink
-  - FlowerWreath
-  - Hairflower
-  - Headphones
-  - PlushieLizard
-  - PlushieSpaceLizard
-  - ThreeCandles
   - Lighter
-  - CigPackGreen
   - CigPackRed
   - CigPackBlue
-  - CigPackBlack
-  - CigarCase
-  - CigarGold
-  - BoxFolderBaseThreePapers
-  - BoxFolderPlasticClipboardThreePapers
-  - BoxFolderClipboardThreePapers
-  - ClothingNeckLGBTPin
-  - ClothingNeckAllyPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckAroacePin
-  - ClothingNeckBisexualPin
-  - ClothingNeckGayPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckPluralPin
-  - ClothingNeckOmnisexualPin
-  - ClothingNeckGenderqueerPin
-  - ClothingNeckGenderfluidPin
-  - ClothingNeckTransPin
-  - ClothingNeckAutismPin
-  - ClothingNeckGoldAutismPin
-  - OffsetCane
-  - OffsetCaneWood
-  - OffsetCaneClown
-  - OffsetCaneMime
-  - OffsetCaneNT
   - Cane
-   # Corvax-Loadouts-Start
-  - ClothingNeckAtharaPin
-  - ClothingNeckCorvaxPin
-  - ClothingNeckEchoPin
-  - ClothingNeckElysiumPin
-  - ClothingNeckMainPin
-  - ClothingNeckNebulaPin
-  - ClothingNeckNovaPin
-  - ClothingNeckSolarisPin
-  - ClothingNeckLumenPin
-  - ClothingNeckVoidPin
-  - ClothingNeckWhiteListPin
-  # Corvax-Loadouts-End
   - TowelColorWhite
 
 - type: loadoutGroup
@@ -177,27 +127,11 @@
   name: loadout-group-hop-jumpsuit
   loadouts:
   - HoPJumpsuit
-  - HoPJumpskirt
-  # Corvax-Loadouts-Start
-  - HoPJumpsuitTurtleneck
-  - HoPJumpskirtTurtleneck
-  # Corvax-Loadouts-End
-
-- type: loadoutGroup
-  id: HoPNeck
-  name: loadout-group-hop-neck
-  minLimit: 0
-  loadouts:
-  - HoPCloak
-  - HoPMantle
 
 - type: loadoutGroup
   id: HoPBackpack
   name: loadout-group-hop-backpack
   loadouts:
-  - CommonBackpack
-  - CommonSatchel
-  - CommonDuffel
   - HoPBackpackIan
 
 - type: loadoutGroup
@@ -219,17 +153,6 @@
   name: loadout-group-passenger-jumpsuit
   loadouts:
   - GreyJumpsuit
-  - GreyJumpskirt
-  - AncientJumpsuit
-  - RainbowJumpsuit
-  - RainbowJumpskirt
-
-- type: loadoutGroup
-  id: PassengerFace
-  name: loadout-group-passenger-mask
-  minLimit: 0
-  loadouts:
-  - PassengerFace
 
 - type: loadoutGroup
   id: PassengerGloves
@@ -239,26 +162,12 @@
   - PassengerGloves
 
 - type: loadoutGroup
-  id: CommonBackpack
-  name: loadout-group-backpack
-  loadouts:
-  - CommonBackpack
-  - CommonSatchel
-  - CommonDuffel
-
-- type: loadoutGroup
-  id: PassengerNeck
-  name: loadout-group-passenger-neck
-  minLimit: 0
-  loadouts:
-  - Mantle
-
-- type: loadoutGroup
   id: PassengerOuterClothing
   name: loadout-group-passenger-outerclothing
   minLimit: 0
   loadouts:
   - PassengerWintercoat
+  - Gentle
 
 - type: loadoutGroup
   id: PassengerShoes
@@ -330,7 +239,6 @@
   name: loadout-group-chef-jumpsuit
   loadouts:
   - ChefJumpsuit
-  - ChefJumpskirt
 
 - type: loadoutGroup
   id: ChefOuterClothing
@@ -339,7 +247,6 @@
   loadouts:
   - ChefApron
   - ChefJacket
-  - ChefWintercoat
 
 #- type: loadoutGroup
 #  id: ChefJobTrinkets
@@ -352,9 +259,6 @@
   name: loadout-group-librarian-jumpsuit
   loadouts:
   - LibrarianJumpsuit
-  - LibrarianJumpskirt
-  - CuratorJumpsuit
-  - CuratorJumpskirt
 
 #- type: loadoutGroup
 #  id: LibrarianJobTrinkets
@@ -464,7 +368,6 @@
   name: loadout-group-janitor-jumpsuit
   loadouts:
   - JanitorJumpsuit
-  - JanitorJumpskirt
 
 - type: loadoutGroup
   id: JanitorGloves
@@ -472,8 +375,6 @@
   minLimit: 0
   loadouts:
   - JanitorRubberGloves
-  - OrangeGloves
-  - PurpleGloves
 
 - type: loadoutGroup
   id: JanitorOuterClothing
@@ -481,13 +382,6 @@
   minLimit: 0
   loadouts:
   - JanitorWintercoat
-
-- type: loadoutGroup
-  id: JanitorJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - JanitorGoldenPlunger
 
 - type: loadoutGroup
   id: BotanistHead
@@ -528,62 +422,17 @@
 #  loadouts:
 
 - type: loadoutGroup
-  id: ClownHead
-  name: loadout-group-clown-head
-  minLimit: 0
-  loadouts:
-  - JesterHat
-  - JesterAltHat
-  - ClownMitre
-
-- type: loadoutGroup
   id: ClownJumpsuit
   name: loadout-group-clown-jumpsuit
   loadouts:
   - ClownSuit
-  - ClownSkirt
-  - JesterSuit
-  - JesterAltSuit
 
-- type: loadoutGroup
-  id: ClownBackpack
-  name: loadout-group-clown-backpack
-  loadouts:
-  - ClownBackpack
-  - ClownSatchel
-  - ClownDuffel
-
-- type: loadoutGroup
-  id: ClownOuterClothing
-  name: loadout-group-clown-outerclothing
-  minLimit: 0
-  loadouts:
-  - ClownRobes
-  - ClownWintercoat
 
 - type: loadoutGroup
   id: ClownShoes
   name: loadout-group-clown-shoes
   loadouts:
   - ClownShoes
-  - JesterShoes
-
-- type: loadoutGroup
-  id: SurvivalClown
-  name: loadout-group-survival-clown
-  minLimit: 2
-  hidden: true
-  loadouts:
-  - EmergencyNitrogenClown
-  - EmergencyOxygenClown
-  - LoadoutSpeciesVoxNitrogen
-
-- type: loadoutGroup
-  id: ClownJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - FlowerWaterClown
 
 - type: loadoutGroup
   id: MimeHead
@@ -652,8 +501,7 @@
   id: MusicianJumpsuit
   name: loadout-group-musician-jumpsuit
   loadouts:
-  - MusicianJumpsuit
-  - MusicianJumpskirt
+  - GreyJumpsuit
 
 - type: loadoutGroup
   id: MusicianOuterClothing
@@ -666,36 +514,11 @@
   id: Instruments
   name: loadout-group-instruments
   minLimit: 0
-  maxLimit: 2
+  maxLimit: 1
   loadouts:
-  - Glockenspiel
-  - MusicBox
-  - Xylophone
-  - Microphone
-  - Synthesizer
-  - Kalimba
-  - Woodblock
-  - ElectricGuitar
-  - BassGuitar
-  - RockGuitar
   - AcousticGuitar
-  - Banjo
-  - Violin
-  - Viola
-  - Cello
-  - Trumpet
-  - Trombone
-  - FrenchHorn
-  - Euphonium
-  - Saxophone
   - Accordion
   - Harmonica
-  - Clarinet
-  - Flute
-  - Recorder
-  - PanFlute
-  - Ocarina
-  - Bagpipe
 
 #- type: loadoutGroup
 #  id: MusicianJobTrinkets
@@ -762,15 +585,12 @@
   name: loadout-group-cargo-technician-jumpsuit
   loadouts:
   - CargoTechnicianJumpsuit
-  - CargoTechnicianJumpskirt
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
   name: loadout-group-cargo-technician-backpack
   loadouts:
   - CargoTechnicianBackpack
-  - CargoTechnicianSatchel
-  - CargoTechnicianDuffel
 
 - type: loadoutGroup
   id: CargoTechnicianOuterClothing
@@ -791,7 +611,6 @@
   name: loadout-group-cargo-technician-id
   loadouts:
   - CargoTechnicianPDA
-  - SeniorCourierPDA
 
 #- type: loadoutGroup
 #  id: CargoTechnicianJobTrinkets
@@ -804,8 +623,6 @@
   name: loadout-group-salvage-specialist-backpack
   loadouts:
   - SalvageSpecialistBackpack
-  - SalvageSpecialistSatchel
-  - SalvageSpecialistDuffel
 
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing
@@ -891,20 +708,13 @@
   name: loadout-group-station-engineer-head
   minLimit: 0
   loadouts:
-  - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
-  - StationEngineerHardhatRed
-  - SeniorEngineerBeret
 
 - type: loadoutGroup
   id: StationEngineerJumpsuit
   name: loadout-group-station-engineer-jumpsuit
   loadouts:
-  - StationEngineerJumpsuit
-  - StationEngineerJumpskirt
   - StationEngineerHazardsuit
-  - SeniorEngineerJumpsuit
-  - SeniorEngineerJumpskirt
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -920,21 +730,18 @@
   minLimit: 0
   loadouts:
   - StationEngineerOuterVest
-  - StationEngineerWintercoat
 
 - type: loadoutGroup
   id: StationEngineerShoes
   name: loadout-group-station-engineer-shoes
   loadouts:
   - WorkBoots
-  - EngineeringWinterBoots
 
 - type: loadoutGroup
   id: StationEngineerID
   name: loadout-group-station-engineer-id
   loadouts:
   - StationEngineerPDA
-  - SeniorEngineerPDA
 
 #- type: loadoutGroup
 #  id: StationEngineerJobTrinkets
@@ -946,9 +753,7 @@
   id: AtmosphericTechnicianJumpsuit
   name: loadout-group-atmospheric-technician-jumpsuit
   loadouts:
-  - AtmosphericTechnicianJumpsuit
-  - AtmosphericTechnicianJumpskirt
-  - AtmosphericTechnicianJumpsuitCasual
+  - StationEngineerHazardsuit
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
@@ -956,22 +761,20 @@
   minLimit: 0
   loadouts:
   - AtmosphericTechnicianWintercoat
-  - AtmosphericsOveralls # CorvaxAtmosFashion
 
 - type: loadoutGroup
   id: AtmosphericTechnicianBackpack
   name: loadout-group-atmospheric-technician-backpack
   loadouts:
-  - AtmosphericTechnicianBackpack
-  - AtmosphericTechnicianSatchel
-  - AtmosphericTechnicianDuffel
+  - StationEngineerBackpack
+  - StationEngineerSatchel
+  - StationEngineerDuffel
 
 - type: loadoutGroup
   id: AtmosphericTechnicianShoes
   name: loadout-group-atmospheric-technician-shoes
   loadouts:
-  - WhiteShoes
-  - EngineeringWinterBoots
+  - WorkBoots
 
 #- type: loadoutGroup
 #  id: AtmosphericTechnicianJobTrinkets
@@ -1141,38 +944,17 @@
   name: loadout-group-head-of-security-jumpsuit
   loadouts:
   - HeadofSecurityJumpsuit
-  - HeadofSecurityJumpskirt
   - HeadofSecurityTurtleneck
-  - HeadofSecurityTurtleneckSkirt
   - HeadofSecurityFormalSuit
-  - HeadofSecurityFormalSkirt
   # Corvax-Loadouts-Start
   - HeadofSecurityJumpsuitBlack
-  - HeadofSecurityJumpskirtBlack
   # Corvax-Loadouts-End
-
-- type: loadoutGroup
-  id: HeadofSecurityNeck
-  name: loadout-group-head-of-security-neck
-  minLimit: 0
-  loadouts:
-  - HeadofSecurityCloak
-  - HeadofSecurityMantle
-  - HeadofSecurityShoulderMantle # Corvax-Loadouts
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
   name: loadout-group-head-of-security-outerclothing
   loadouts:
   - HeadofSecurityCoat
-  - HeadofSecurityWinterCoat
-
-- type: loadoutGroup
-  id: HeadofSecurityJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - SecStar
 
 - type: loadoutGroup
   id: WardenHead
@@ -1187,21 +969,12 @@
   name: loadout-group-warden-jumpsuit
   loadouts:
   - WardenJumpsuit
-  - WardenJumpskirt
 
 - type: loadoutGroup
   id: WardenOuterClothing
   name: loadout-group-warden-outerclothing
   loadouts:
   - WardenCoat
-  - WardenArmoredWinterCoat
-
-- type: loadoutGroup
-  id: WardenJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - SecStar
 
 - type: loadoutGroup
   id: SecurityHead
@@ -1211,19 +984,14 @@
   - SecurityHelmet
   - SecurityBeret
   - SecurityHat
-  - TrooperHat
 
 - type: loadoutGroup
   id: SecurityJumpsuit
   name: loadout-group-security-jumpsuit
   loadouts:
   - SecurityJumpsuit
-  - SecurityJumpskirt
   - SecurityJumpsuitGrey
-  - SecurityJumpskirtGrey
   - SeniorOfficerJumpsuit
-  - SeniorOfficerJumpskirt
-  - TrooperUniform
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1246,9 +1014,7 @@
   loadouts:
   - ArmorVestSec # Corvax
   - ArmorVest
-  - ArmorVestSlim
   - SecurityOfficerOvercoat # Corvax
-  - SecurityOfficerWintercoat
 
 - type: loadoutGroup
   id: SecurityShoes
@@ -1256,21 +1022,12 @@
   loadouts:
   - JackSecBoots # Corvax
   - JackBoots
-  - SecurityWinterBoots
 
 - type: loadoutGroup
   id: SecurityPDA
   name: loadout-group-security-id
   loadouts:
   - SecurityPDA
-  - SeniorOfficerPDA
-
-- type: loadoutGroup
-  id: SecurityJobTrinkets
-  name: loadout-group-jobtrinkets
-  minLimit: 0
-  loadouts:
-  - SecStar
 
 - type: loadoutGroup
   id: DetectiveHead

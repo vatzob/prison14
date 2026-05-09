@@ -7,9 +7,7 @@
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hop
   access:
-  - Service
   - Janitor
-  - Maintenance
   special:
   - !type:GiveItemOnHolidaySpecial
     holiday: GarbageDay
@@ -20,7 +18,6 @@
   equipment:
     shoes: ClothingShoesGaloshes
     id: JanitorPDA
-    ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
   #storage:
     #back:
@@ -33,7 +30,6 @@
     id: JanitorPDA
     gloves: ClothingHandsGlovesJanitor
     head: ClothingHeadHatCatEars
-    ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
 
 - type: chameleonOutfit

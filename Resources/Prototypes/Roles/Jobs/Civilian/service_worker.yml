@@ -10,20 +10,12 @@
   startingGear: ServiceWorkerGear
   icon: "JobIconServiceWorker"
   supervisors: job-supervisors-service
-  access:
-  - Service
-  - Maintenance
-  - Bar
-  - Kitchen
-  extendedAccess:
-  - Hydroponics
 
 - type: startingGear
   id: ServiceWorkerGear
   equipment:
     shoes: ClothingShoesColorBlack
-    id: ServiceWorkerPDA
-    ears: ClothingHeadsetService
+    id: PassengerPDA
   #storage:
     #back:
     #- Stuff
