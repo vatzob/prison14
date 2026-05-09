@@ -6,25 +6,25 @@ roles-antag-generic-team-antagonist-name = Командный антагонис
 
 roles-antag-generic-silicon-antagonist-name = Синтетик антагонист
 
-roles-antag-syndicate-agent-name = Агент Синдиката
+roles-antag-syndicate-agent-name = Хотите быть П.И.Д.О.Р.О.М. ?
 roles-antag-syndicate-agent-objective = Выполните свои задачи и не попадитесь.
 
-roles-antag-syndicate-agent-sleeper-name = Спящий агент Синдиката
+roles-antag-syndicate-agent-sleeper-name = Хотите быть М.У.Ж.Е.Л.О.Ж.Ц.Е.М. ?
 roles-antag-syndicate-agent-sleeper-objective = Разновидность агента Синдиката, который может активироваться и начать действие в любой момент смены.
 
-roles-antag-initial-infected-name = Нулевой заражённый
+roles-antag-initial-infected-name = Болеете С.П.И.Д.О.М. ?
 roles-antag-initial-infected-objective = После превращения заразите как можно больше других членов экипажа.
 
 roles-antag-zombie-name = Зомби
 roles-antag-zombie-objective = Превратите как можно больше членов экипажа в зомби.
 
-roles-antag-nuclear-operative-commander-name = Командир ядерных оперативников
+roles-antag-nuclear-operative-commander-name = Heavy [RED]
 roles-antag-nuclear-operative-commander-objective = Приведите свой отряд к уничтожению станции.
 
-roles-antag-nuclear-operative-agent-name = Медик ядерных оперативников
+roles-antag-nuclear-operative-agent-name = MEDIC! [RED]
 roles-antag-nuclear-operative-agent-objective = Медик ядерных оперативников. Лечите свою команду для победы!
 
-roles-antag-nuclear-operative-name = Ядерный оперативник
+roles-antag-nuclear-operative-name = Soldier [RED]
 roles-antag-nuclear-operative-objective = Найдите ядерный диск и взорвите станцию.
 
 roles-antag-subverted-silicon-name = Взломанный борг
@@ -38,7 +38,7 @@ roles-antag-paradox-clone-objective = Странная пространстве�
 
 roles-antag-pirate-name = Пират
 
-roles-antag-thief-name = Вор
+roles-antag-thief-name = Хотите быть С.У.К.О.Й. ?
 roles-antag-thief-objective = Пополните свою личную коллекцию имуществом Nanotrasen, не прибегая к насилию.
 
 roles-antag-dragon-name = Космический дракон

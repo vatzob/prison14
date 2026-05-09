@@ -14,23 +14,23 @@
 - type: loadout
   id: ChefJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChef
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 - type: loadout
   id: ChefJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtChef
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Outer clothing
 - type: loadout
   id: ChefApron
   equipment:
-    outerClothing: ClothingOuterApronChef
+    outerClothing: ClothingOuterCoatGentle
 
 - type: loadout
   id: ChefJacket
   equipment:
-    outerClothing: ClothingOuterJacketChef
+    outerClothing: ClothingOuterCoatJensen
 
 - type: loadout
   id: ChefWintercoat

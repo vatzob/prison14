@@ -20,7 +20,6 @@
   name: loadout-group-medical-doctor-shoes
   loadouts:
   - WhiteShoes
-  - MedicalWinterBoots
 
 - type: loadoutGroup
   id: SurvivalMedical
@@ -87,25 +86,13 @@
   name: loadout-group-medical-doctor-head
   minLimit: 0
   loadouts:
-  - MedicalBeret
-  - SeniorPhysicianBeret
-  - MedicalHeadMirror
   - BlueSurgeryCap
-  - GreenSurgeryCap
-  - PurpleSurgeryCap
-  - NurseHat
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
   name: loadout-group-medical-doctor-jumpsuit
   loadouts:
-  - MedicalDoctorJumpsuit
-  - MedicalDoctorJumpskirt
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
   - MedicalBlueScrubs
-  - MedicalGreenScrubs
-  - MedicalPurpleScrubs
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
@@ -113,7 +100,6 @@
   minLimit: 0
   loadouts:
   - RegularLabCoat
-  - MedicalDoctorWintercoat
   - SeniorPhysicianLabCoat
 
 - type: loadoutGroup
@@ -121,7 +107,6 @@
   name: loadout-group-medical-doctor-id
   loadouts:
   - MedicalDoctorPDA
-  - SeniorPhysicianPDA
 
 #- type: loadoutGroup
 #  id: MedicalDoctorJobTrinkets

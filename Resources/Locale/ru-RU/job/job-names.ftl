@@ -1,5 +1,5 @@
 job-name-atmostech = сварщик
-job-name-bartender = бармен
+job-name-bartender = роль отсутствует
 job-name-borg = роль отсутствует
 job-name-botanist = роль отсутствует
 job-name-brigmedic = роль отсутствует
@@ -43,7 +43,7 @@ job-name-research-assistant = роль отсутствует
 job-name-salvagespec = роль отсутствует
 job-name-scientist = роль отсутствует
 job-name-security = офицер тюремной охраны
-job-name-serviceworker = роль отсутствует
+job-name-serviceworker = авторитет
 job-name-station-ai = роль отсутствует
 job-name-technical-assistant = роль отсутствует
 job-name-visitor = роль отсутствует

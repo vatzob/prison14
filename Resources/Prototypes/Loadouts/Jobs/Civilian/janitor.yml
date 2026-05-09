@@ -17,31 +17,21 @@
 - type: loadout
   id: JanitorJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitJanitor
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 - type: loadout
   id: JanitorJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtJanitor
+    jumpsuit: ClothingUniformJumpsuitPrisoner
 
 # Gloves
 - type: loadout
   id: JanitorRubberGloves
   equipment:
-    gloves: ClothingHandsGlovesJanitor
-
-- type: loadout
-  id: OrangeGloves
-  equipment:
-    gloves: ClothingHandsGlovesColorOrange
-
-- type: loadout
-  id: PurpleGloves
-  equipment:
-    gloves: ClothingHandsGlovesColorPurple
+    gloves: ClothingHandsGlovesFingerless
 
 # Outer clothing
 - type: loadout
   id: JanitorWintercoat
   equipment:
-    outerClothing: ClothingOuterWinterJani
+    outerClothing: ClothingOuterCoatGentle

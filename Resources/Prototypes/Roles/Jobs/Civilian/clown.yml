@@ -9,9 +9,6 @@
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
-  access:
-  - Theatre
-  - Maintenance
   special:
   - !type:AddComponentSpecial
     components:
@@ -33,17 +30,14 @@
 - type: startingGear
   id: ClownGear
   equipment:
-    mask: ClothingMaskClown
-    pocket1: BikeHorn
-    pocket2: ClownRecorder
-    id: ClownPDA
-    ears: ClothingHeadsetService
+    head: ClothingHeadHatChickenhead
+    outerClothing: ClothingOuterSuitChicken
+    id: PassengerPDA
   inhand:
-  - FoolboxFilled
+  - FoodBreadMoldySlice
   storage:
     back:
-    - RubberStampClown
-    - CrayonRainbow
+
 
 - type: chameleonOutfit
   id: ClownChameleonOutfit

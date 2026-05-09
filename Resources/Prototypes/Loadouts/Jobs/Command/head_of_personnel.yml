@@ -22,12 +22,12 @@
 - type: loadout
   id: HoPJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
 
 - type: loadout
   id: HoPJumpskirt
   equipment:
-    jumpsuit: ClothingUniformJumpskirtHoP
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
 
 # Head
 - type: loadout
@@ -61,10 +61,10 @@
   - !type:GroupLoadoutEffect
     proto: ProfessionalHoP
   equipment:
-    back: ClothingBackpackIan
+    back: ClothingBackpackSatchelLeather
 
 # Outerclothing
 - type: loadout
   id: HoPWintercoat
   equipment:
-    outerClothing: ClothingOuterWinterHoP
+    outerClothing: ClothingOuterCoatHOP

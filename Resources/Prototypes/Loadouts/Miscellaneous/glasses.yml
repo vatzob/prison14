@@ -32,7 +32,7 @@
   - !type:GroupLoadoutEffect
     proto: JamjarTimer
   equipment:
-    eyes: ClothingEyesGlassesJamjar
+    eyes: ClothingEyesSalesman
 
 # Jensen
 - type: loadout
@@ -41,4 +41,4 @@
   - !type:GroupLoadoutEffect
     proto: JensenTimer
   equipment:
-    eyes: ClothingEyesGlassesJensen
+    eyes: ClothingEyesGlassesCheapSunglasses

@@ -5,8 +5,6 @@
   color: "#A46106"
   roles:
   - CargoTechnician
-  - Quartermaster
-  - SalvageSpecialist
 
 - type: department
   id: Civilian
@@ -15,20 +13,12 @@
   color: "#9FED58"
   weight: -10
   roles:
-  - Bartender
-  - Botanist
-  - Chaplain
   - Chef
   - Clown
-  - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
-  - Mime
   - Musician
   - Passenger
-  - Reporter
-  - Visitor
   - ServiceWorker
 
 - type: department
@@ -55,23 +45,8 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - Captain
-  - IAA # Corvax-IAA
-  - ChiefEngineer
-  - ChiefMedicalOfficer
   - HeadOfPersonnel
   - HeadOfSecurity
-  - ResearchDirector
-  - Quartermaster
-  - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
   primary: false
   weight: 100
 
@@ -82,10 +57,7 @@
   color: "#EFB341"
   roles:
   - AtmosphericTechnician
-  - ChiefEngineer
-  - SeniorEngineer # Corvax-MentorRoles
   - StationEngineer
-  - TechnicalAssistant
 
 - type: department
   id: Medical
@@ -93,13 +65,7 @@
   description: department-Medical-description
   color: "#52B4E9"
   roles:
-  - Chemist
-  - ChiefMedicalOfficer
   - MedicalDoctor
-  - MedicalIntern
-  - Psychologist
-  - Paramedic
-  - SeniorPhysician # Corvax-MentorRoles
 
 - type: department
   id: Security
@@ -109,13 +75,8 @@
   weight: 20
   roles:
   - HeadOfSecurity
-  - SecurityCadet
   - SecurityOfficer
-  - SeniorOfficer # Corvax-MentorRoles
-  - Pilot # Corvax-Pilot
-  - Detective
   - Warden
-  - Brigmedic # Corvax-Brigmedic
 
 - type: department
   id: Science
@@ -123,10 +84,7 @@
   description: department-Science-description
   color: "#D381C9"
   roles:
-  - ResearchDirector
-  - SeniorResearcher # Corvax-MentorRoles
-  - Scientist
-  - ResearchAssistant
+  - StationAi
 
 - type: department
   id: Silicon
@@ -134,7 +92,6 @@
   description: department-Silicon-description
   color: "#D381C9"
   roles:
-  - Borg
   - StationAi
 
 - type: department
@@ -145,6 +102,4 @@
   weight: 10
   roles:
   - Reporter
-  - Psychologist
-  - Pilot # Corvax-Pilot
   primary: false
